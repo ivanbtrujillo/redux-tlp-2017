@@ -1,27 +1,20 @@
 import React, { Component } from 'react';
 import Counter from '../../components/counter';
 
-export default class Calculator extends Component {
+import { increment, decrement, reset } from '../../redux/actions';
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
 
-  constructor(props){
-    super(props);
-    this.state = {
-      value: 0
-    }
-  }
+const Calculator = (props) => (
+  <Counter
+    value={props.counter.value}
+    increment={props.increment}
+    decrement={props.decrement}
+    reset={props.reset}
+    />
+);
 
-  increment = () => this.setState({value: this.state.value +1 });
-  decrement = () => this.setState({value: this.state.value - 1 });
-  reset = () => this.setState({value: 0 });
+const mapStateToProps = (state) => ({counter: state.counter});
+const mapDispatchToProps = (dispatch) => bindActionCreators({increment, decrement, reset}, dispatch); 
 
-  render() {
-    return (
-      <Counter
-        value={this.state.value}
-        increment={this.increment}
-        decrement={this.decrement}
-        reset={this.reset}
-       />
-    );
-  }
-}
+export default connect(mapStateToProps, mapDispatchToProps)(Calculator);
