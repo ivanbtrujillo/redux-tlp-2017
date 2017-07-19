@@ -7,10 +7,18 @@ export default (props) => (
     <p> El valor es: {props.value}
       <span className="counterValue"> </span>
     </p>
-    <button className="counterButton" onClick={props.increment} > Incrementar </button>
-    <button className="counterButton" onClick={props.decrement} > Decrementar </button>
-    <button className="counterButton" onClick={props.reset} > Resetear </button>
+    <button className="counterButton" onClick={props.increment} > 
+      Incrementar 
+    </button>
+    <button className="counterButton" onClick={props.decrement} > 
+      Decrementar 
+    </button>
+    <button className="counterButton" onClick={props.reset} > 
+      Resetear 
+    </button>
   </div>
 )
+
+
 
 
