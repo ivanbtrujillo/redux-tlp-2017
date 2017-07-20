@@ -38,7 +38,7 @@ git checkout 02
 
 La aplicación desarrollada en esta rama es la siguiente:
 
-![Contador](img/contador.png)
+![Contador](img/counter.png)
 
 ### Rama redux-api-request: 
 Tendremos un ejemplo un poco mas avanzado en el que se detalla el uso de Redux con
@@ -47,7 +47,7 @@ react-router integrándolo con una api a la que realizar peticiones http que cua
 Partimos de lo desarrollado en la rama master.
 
 La aplicación desarrollada en esta rama es la siguiente:
-![GOT](img/gotpng)
+![GOT](img/game-of-thrones.png)
 
 #### Servidor (solo necesario para la rama redux-api-request)
 
