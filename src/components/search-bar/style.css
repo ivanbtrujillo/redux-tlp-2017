@@ -1,0 +1,14 @@
+.searchBar {
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.searchButton{
+  border: 2px solid mediumpurple;
+  height: 40px;
+  color: white;
+  text-decoration: none;
+  background: #2d2d2d;
+}
