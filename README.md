@@ -49,6 +49,14 @@ Partimos de lo desarrollado en la rama master.
 La aplicación desarrollada en esta rama es la siguiente:
 ![GOT](img/game-of-thrones.png)
 
+Para poder ejecutar el proyecto en esta rama, necesitas instalar las nuevas dependencias:
+
+```
+npm i
+```
+
+Y clonar y ejecutar el servidor de pruebas.
+
 #### Servidor (solo necesario para la rama redux-api-request)
 
 Para gestionar las peticiones http desde el front con react-redux, debemos clonar el repositorio en el cual tenemos un JSON Server simple que dispone de una base de datos en un JSON con informacion de personajes de Game of Thrones.
