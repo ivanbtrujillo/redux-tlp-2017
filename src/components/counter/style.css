@@ -10,7 +10,8 @@
 }
 
 .counterValue {
-  color: mediumpurple
+  color: mediumpurple;
+  font-size: 20px;
 }
 
 .counterButton{

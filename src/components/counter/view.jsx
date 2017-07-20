@@ -4,8 +4,8 @@ import './style.css';
 export default (props) => (
   <div className="counter">
     <h1 className="counterTitle"> Counter </h1>
-    <p> El valor es: {props.value}
-      <span className="counterValue"> </span>
+    <p> El valor es:
+      <span className="counterValue"> {props.value} </span>
     </p>
     <button className="counterButton" onClick={props.increment} > 
       Incrementar 
