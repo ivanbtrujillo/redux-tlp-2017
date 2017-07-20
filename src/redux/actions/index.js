@@ -3,4 +3,7 @@ export {
   increment, decrement, reset
 } from './counter';
 
-
+export {
+  FETCH_SINGLE,
+  fetchSingleCharacter,
+} from './game-of-thrones';

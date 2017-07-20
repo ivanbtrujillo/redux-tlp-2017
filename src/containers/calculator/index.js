@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Counter from '../../components/counter';
 
 import { increment, decrement, reset } from '../../redux/actions';

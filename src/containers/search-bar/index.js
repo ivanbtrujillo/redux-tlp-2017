@@ -3,10 +3,8 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
-import SearchBar from '../../components/search-bar';
+import Finder from '../../components/finder';
 import { fetchSingleCharacter } from '../../redux/actions';
-
-import style from './style.css'
 
 class Search extends Component {
 
@@ -24,7 +22,7 @@ class Search extends Component {
   }
   
   render = () => (
-    <SearchBar onSubmit={this.onFormSubmit}
+    <Finder onSubmit={this.onFormSubmit}
       term={this.state.term}
       onChange={ this.onInputChange}
     />   
@@ -33,4 +31,4 @@ class Search extends Component {
 
 const mapDispatchToProps = (dispatch) => bindActionCreators({fetchSingleCharacter}, dispatch);
 
-export default connect(null, mapDispatchToProps)(SearchBar);
+export default connect(null, mapDispatchToProps)(Search);

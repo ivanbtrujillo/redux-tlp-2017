@@ -1,0 +1,14 @@
+.list{
+  width: 80%;
+  height: 300px;
+  overflow-y: scroll;
+  display: flex;
+}
+
+.table{
+  flex:1;
+}
+
+.tableTitle {
+  color: 'mediumpurple'
+}

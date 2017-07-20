@@ -1,11 +1,10 @@
-.searchBar {
-  margin-left: 20%;
-  margin-right: 20%;
+.finder {
   padding-top: 20px;
   padding-bottom: 20px;
+  width: 80%;
 }
 
-.searchButton{
+.finderButton{
   border: 2px solid mediumpurple;
   height: 40px;
   color: white;

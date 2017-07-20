@@ -1,0 +1,34 @@
+.header{
+    height: 100px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.customButtonNav{
+  border: 2px solid #2D2D2D;
+  background: white;
+  color: #2D2D2D;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.customButtonNav:hover{
+    color: mediumpurple;
+    text-decoration: none;
+}
+
+.customButtonNav:focus {
+    color: mediumpurple;
+    text-decoration: none;
+    border-color: mediumpurple;
+}
+
+.headerTitle{
+    color: #2D2D2D;
+    margin: 15px;
+}
+.logo{
+    width: 64px;
+    height: 64px;
+}
